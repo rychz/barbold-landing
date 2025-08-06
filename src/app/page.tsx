@@ -210,7 +210,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center space-x-8 text-sm mb-12">
             <a href="/privacy" className="text-gray-500 hover:text-orange-500 transition-colors font-medium">Privacy Policy</a>
-            <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors font-medium">Terms of Service</a>
+            <a href="/terms" className="text-gray-500 hover:text-orange-500 transition-colors font-medium">Terms of Service</a>
             <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors font-medium">Support</a>
             <a href="#" className="text-gray-500 hover:text-orange-500 transition-colors font-medium">Contact</a>
           </div>

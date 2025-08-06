@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function Privacy() {
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#191919' }}>
@@ -5,14 +7,14 @@ export default function Privacy() {
       <nav className="sticky top-0 z-50 backdrop-blur-sm border-b border-gray-700" style={{ backgroundColor: 'rgba(25, 25, 25, 0.95)' }}>
         <div className="flex justify-between items-center py-4 px-6 max-w-7xl mx-auto">
           <div className="flex items-center">
-            <a href="/">
+            <Link href="/">
               <img src="/bb-full.svg" alt="BarBold" className="h-8" />
-            </a>
+            </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/#features" className="text-gray-300 hover:text-white transition-colors duration-200 font-medium text-sm">Features</a>
-            <a href="/#download" className="text-gray-300 hover:text-white transition-colors duration-200 font-medium text-sm">Download</a>
-            <a href="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200 font-medium text-sm">Contact</a>
+            <Link href="/#features" className="text-gray-300 hover:text-white transition-colors duration-200 font-medium text-sm">Features</Link>
+            <Link href="/#download" className="text-gray-300 hover:text-white transition-colors duration-200 font-medium text-sm">Download</Link>
+            <Link href="/#contact" className="text-gray-300 hover:text-white transition-colors duration-200 font-medium text-sm">Contact</Link>
             <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200">
               Get Started
             </button>
@@ -116,7 +118,7 @@ export default function Privacy() {
                 <h3 className="text-xl font-bold text-orange-500 mb-3">Core App Functionality</h3>
                 <ul className="list-disc pl-6 space-y-1">
                   <li>Provide workout tracking and fitness features</li>
-                  <li>Store and sync your workout data across devices</li>
+                  <li>Store your workout data</li>
                   <li>Calculate personal records and fitness achievements</li>
                   <li>Generate workout recommendations and progress insights</li>
                   <li>Backup and restore your workout data</li>
@@ -128,7 +130,7 @@ export default function Privacy() {
                 <ul className="list-disc pl-6 space-y-1">
                   <li>Create and manage your account</li>
                   <li>Authenticate your identity</li>
-                  <li>Enable cloud synchronization of your data</li>
+                  <li>Enable cloud storage of your data</li>
                   <li>Manage subscription status and trial limits</li>
                 </ul>
               </div>
@@ -217,7 +219,7 @@ export default function Privacy() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-bold text-white mb-4">Children's Privacy</h2>
+              <h2 className="text-2xl font-bold text-white mb-4">Children&apos;s Privacy</h2>
               <p className="leading-relaxed">
                 Barbold is not intended for children under 13 years of age. We do not knowingly collect personal information from children under 13. If we discover that we have collected information from a child under 13, we will delete it immediately.
               </p>
@@ -249,7 +251,7 @@ export default function Privacy() {
             <section>
               <h2 className="text-2xl font-bold text-white mb-4">Your Choices Regarding Analytics</h2>
               <p className="leading-relaxed">
-                To help us improve the app, we collect anonymous usage analytics and crash reports. You have full control over this data collection. You can disable analytics and crash reporting at any time from the app&rsquo;s settings menu. If you disable these, no performance or usage data will be sent from your device.
+                To help us improve the app, we collect anonymous usage analytics and crash reports. You have full control over this data collection. You can disable analytics and crash reporting at any time from the app&apos;s settings menu. If you disable these, no performance or usage data will be sent from your device.
               </p>
             </section>
 
