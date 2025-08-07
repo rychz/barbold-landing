@@ -64,7 +64,7 @@ This project is configured for automatic deployment to GitHub Pages using GitHub
 4. Under "Source", select "GitHub Actions"
 5. The deployment will trigger automatically on pushes to the main branch
 
-Your site will be available at: `https://your-username.github.io/repository-name`
+Your site will be available at: `https://barbold.app`
 
 ### Manual Deployment:
 
